@@ -7,6 +7,10 @@
   "license": "MIT",
   "type": "module",
   "exports": "./build/index.js",
+  "files": [
+    "build/**/*.js",
+    "build/**/*.d.ts"
+  ],
   "scripts": {
     "build": "tsc --project ./tsconfig.json  --declaration --incremental"
   },
