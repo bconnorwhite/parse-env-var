@@ -1,0 +1,19 @@
+{
+  "name": "parse-env-var",
+  "version": "1.0.0",
+  "description": "Parse variables from process.env",
+  "main": "./build/index.js",
+  "author": "Connor White",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./build/index.js",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json  --declaration --incremental"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "eslint": "^8.27.0",
+    "eslint-config-bob": "^2.0.1",
+    "typescript": "^4.8.4"
+  }
+}
